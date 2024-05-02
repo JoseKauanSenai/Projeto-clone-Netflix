@@ -1,0 +1,208 @@
+body{
+    background: linear-gradient(to right, rgb(0,0,0,0.99), rgb(0,0,0,0.1)), url(../img/resgate-2.webp);
+    background-size: cover;    
+    background-repeat: no-repeat;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    padding: 0%;
+    display: flex;
+    align-items: center;
+}
+main{
+    padding: 20px;
+}
+#titulo{
+    width: 15%;
+}
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin-left: 1%;
+}
+#lupa{
+    padding-left: 50%;
+}
+#sino{
+    padding-left: 2%;
+    padding-right: 2%   ;
+}
+#avatar img{
+    width: 20px;
+    height: 20px;
+    padding-right: 2%;
+}
+a:hover{
+    color:darkgray;
+}
+#e{
+    display:flex ;
+    justify-content: center;
+    text-align: center;
+    width: 35%;
+    color: white; 
+    font-family: Courier, monospace;
+    font-size: 15px;
+}
+#i{
+    display:flex ;
+    justify-content: center;
+    text-align: center;
+    width: 35%;
+    color: white; 
+    font-family: fantasy;
+    font-size: 70px;
+}
+#o{
+    justify-content: center;
+    text-align: center;
+    width: 35%;
+    color: white;
+    font-family: fantasy;
+    font-size: 20px; 
+    margin-bottom: 1%;
+}
+#info{
+    display: flex;
+    width: 35%;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+#relevancia{
+    padding-left: 2%;
+    padding-right: 2%; 
+    color: rgb(8, 255, 8);
+}
+#ano{
+    padding-left: 2%;
+    padding-right: 2%; 
+    color: white;
+}
+#temporada{
+    padding-left: 2%;
+    padding-right: 2%; 
+    color: white;
+}
+#idade img{
+        width: 20px;
+        height: 20px;
+        padding-right: 2%;
+        padding-left: 2%;
+}
+#sinopse{
+    width: 35%;
+    color: white;
+    text-align: justify;
+    margin-bottom: 1%;
+    font-size: 140%;
+}
+button{
+    width: 40%;
+    height: 100%;
+    border-radius: 10px;
+    font-size: 15px;
+}
+#div-butao{
+    display: flex;
+    justify-content: center;
+    width: 35%;
+    height: 5%;
+}
+#reproduzir:hover {
+    color:white;
+    background-color:darkred; 
+    cursor: pointer;
+}
+#minha-lista{
+    color: black;
+    background-color: gray;
+    padding-right: 3%;
+}
+#minha-lista:hover {
+    color:white;
+    background-color:darkgrey; 
+    cursor: pointer;
+}
+#sugestoes{
+    padding-top: 2%;
+    padding-left: 2%;
+    color: white;
+    font-family: Impact, fantasy;
+    font-size: 30px;
+}   
+#div-sugestoes{
+    height: 450px;
+    width: 100%;
+    display: flex;
+}
+#sniper-filme{
+    height: 400px;
+    width: 300px;
+    padding-left: 0%;
+    transition-duration: 0.3s;
+}
+#atirador-filme{
+    height: 400px;
+    width: 300px;
+    padding-left: 2%;
+    transition-duration: 0.3s;
+}
+#resgate-2-filme{
+    height: 400px;
+    width: 300px;
+    padding-left: 2%;
+    transition-duration: 0.3s;
+}
+#tropa-de-elite{
+    height: 400px;
+    width: 300px;
+    padding-left: 2%;
+    transition-duration: 0.3s;
+}
+#john-wick{
+    height: 400px;
+    width: 300px;
+    padding-left: 2%;
+    transition-duration: 0.3s;
+}
+#morrer007{
+    height: 400px;
+    width: 300px;
+    padding-left: 2%;
+    transition-duration: 0.3s;
+}
+#sniper-filme:hover{
+    cursor: pointer;
+    transform: scale(1.1) 
+}
+#atirador-filme:hover{
+    cursor: pointer;
+    transform: scale(1.1) 
+}
+#resgate-2-filme:hover{
+    cursor: pointer;
+    transform: scale(1.1) 
+}
+#tropa-de-elite:hover{
+    cursor: pointer;
+    transform: scale(1.1) 
+}
+#john-wick:hover{
+    cursor: pointer;
+    transform: scale(1.1) 
+}
+#morrer007:hover{
+    cursor: pointer;
+    transform: scale(1.1) 
+}
+#div-sugestoes a{
+    margin: 0%;
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(50, 50, 50);
+}
+header{
+    padding: 0%;
+    align-items: center;
+}
+#titulo{
+    width: 15%;
+}
+#assistindo{
+    display: flex;
+    padding-top: 2%;
+    justify-content: center;
+    font-size: 80px;
+    color: white;
+}
+#avatar{
+    display: flex;
+    padding-top: 2%;
+    justify-content: center;
+}

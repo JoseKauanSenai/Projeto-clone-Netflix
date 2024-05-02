@@ -1,0 +1,75 @@
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login-Netflix</title>
+        <link rel="shortcut icon" href="img/logo-inicial.png" type="image/x-icon">
+        <link rel="stylesheet" href="style/style-login.css">
+    </head>
+    <body>
+        <header>
+            <img id="titulo" src="img/logo-titulo.png" alt="logo-titulo-Netflix">
+            <div id="caixa-login">
+                <div id="caixa">
+                    <div id="entrar">
+                        Entrar <br>
+                        <input class="login-input" type="text" placeholder="Email ou número de telefone" id="email">
+                        <P class="alerta" hidden>⚠️Este campo não pode estar vazio!</P>
+
+                        <input class="login-input" type="password" placeholder="Senha" name="senha" id="senha">
+                        <p class="alerta" hidden>⚠️Este campo não pode estar vazio!</p>
+                        
+                        <input type="button" id="butao" onclick="entrar()" value="ENTRAR">
+                        
+                        <div id="lembrar">
+                            <input type="checkbox">Lembrar Login
+                            <a id="ajuda" href="https://www.google.com.br/" target="_blank">Precisa de ajuda?</a>
+                        </div> 
+                        <div id="novo">
+                            Novo por aqui?
+                            <a id="assine" href="https://www.google.com.br/" target="_blank">Assine agora</a>
+                        </div>
+                    </div>                   
+                </div> 
+            </div>  
+        </header>
+
+        <script>
+            var email = document.getElementById("email");
+            var senha = document.getElementById("senha");
+            var alerta = document.getElementsByClassName("alerta");
+
+            var login_email = "kauan";
+            var login_senha = "1234";
+
+            email.addEventListener("input", ()=>{
+                if(email.value != ""){
+                    alerta[0].setAttribute("hidden","");
+                    email.style.marginBottom = "10px";
+                }
+            })
+
+            senha.addEventListener("input", ()=>{
+                if(senha.value != ""){
+                    alerta[1].setAttribute("hidden","");
+                    email.style.marginBottom = "10px";
+                }
+            })
+
+            function entrar(){
+                    if(email.value === ""){
+                        alerta[0].removeAttribute("hidden");
+                        email.style.marginBottom = "0%";
+                    }else if(senha.value == ""){
+                        alerta[1].removeAttribute("hidden");
+                        senha.style.marginBottom = "0%";
+                    }else if(email.value == login_email && senha.value == login_senha){
+                        window.open("index.html")
+                    }else{
+                        alerta[0].removeAttribute("hidden");
+                        alerta[0].innerHTML = "⚠️Usuário ou senha incorreto!"
+                    }
+            }
+        </script>
+    </body>
+</html>

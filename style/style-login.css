@@ -1,0 +1,97 @@
+body{
+    background-image: url(../img/plano-de-fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;   
+    margin: 0%;
+} 
+header{
+    padding: 0%;
+    align-items: center;
+}
+#titulo{
+    width: 15%;
+}
+#caixa-login{
+    display: flex;
+    justify-content: center;
+}
+#caixa{
+    background-color: rgba(0,0,0,0.9);
+    width: 450px;
+    height: 500px;
+}
+#entrar{
+    font-weight: 900;
+    font-size: 30px;
+    color: white;
+    margin: 15%;
+}
+.alerta{
+    font-size: 16;
+    font-family: font-stretch ultra-expanded;;
+}
+::placeholder{
+    color: white;
+}
+
+#email{
+    width: 100%;
+    height: 10%;
+    margin-top: 10%;
+    margin-bottom: 8%;
+    color: white;    
+    background-color: grey;
+    border-radius: 5px;
+    padding-left: 5%;
+}
+#senha{
+    width: 100%;
+    height: 10%;
+    color: white;    
+    background-color: grey;
+    border-radius: 5px;
+    padding-left: 5%;
+}
+#butao{
+    margin-top: 15%;
+    border-radius: 5px;
+    width: 100%;
+    height: 10%;
+    color: white;
+    background-color: red;
+    padding-right: 5%;
+    /* font-family: font-stretch ultra-expanded; */
+    font-size: 20px;
+}
+#entrar-butao:hover{
+    background-color: rgb(114, 1, 1);
+}
+#lembrar{
+    color: rgb(167, 167, 167);
+    font-size: 18;
+    font-family: font-stretch ultra-expanded;
+    padding-top: 2%;
+}
+#ajuda{
+    padding-left: 10%;
+    color: rgb(167, 167, 167);
+    text-decoration: none;
+}
+#ajuda:hover{
+    color: rgb(94, 94, 94);
+}
+#novo{
+    color: rgb(167, 167, 167);
+    font-size: 18;
+    font-family: font-stretch ultra-expanded;
+    margin-top: 15%;
+}
+#assine{
+    font-size: 22;
+    padding-left: 2%;
+    color: white;
+    text-decoration: none;
+}
+#assine:hover{
+    color: rgb(94, 94, 94);
+}
